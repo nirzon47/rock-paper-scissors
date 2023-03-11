@@ -8,18 +8,21 @@
 		<title>Rock Paper Scissors</title>
 	</head>
 	<body>
-		<button onclick="game('rock')">Rock</button>
-		<button onclick="game('paper')">Paper</button>
-		<button onclick="game('scissors')">Scissors</button>
+		<h1>Rock, Paper, Scissors!</h1>
+		<h2>First to 5 wins, wins the game!</h2>
+		<button class="choice" onclick="game('rock')">Rock</button>
+		<button class="choice" onclick="game('paper')">Paper</button>
+		<button class="choice" onclick="game('scissors')">Scissors</button>
+		<button onclick="refresh()">Refresh</button>
 		<div id="resultSection">
 			<p id="playerSelection"></p>
+			<p id="versus"></p>
 			<p id="computerSelection"></p>
 			<p id="feedback"></p>
 		</div>
 		<div class="scores">
 			<p id="computerScore"></p>
 			<p id="playerScore"></p>
-			<p>First to 5 wins the round but you can continue playing</p>
 			<p id="endResult"></p>
 		</div>
 	</body>
