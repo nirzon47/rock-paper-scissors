@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+	font-family: 'Roboto', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #1a1a1a;
+	color: #fff;
+	height: 100vh;
+	width: 100vw;
+}
+
+h1 {
+	font-size: 3.5em;
+	padding-bottom: 5vh;
+}
+
+h2 {
+	font-weight: 400;
+	padding-bottom: 5vh;
+}
+
+p {
+	display: inline;
+}
+
+.btn-group {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-bottom: 4vh;
+	width: 40vw;
+}
+
+button {
+	padding: 1.5vh;
+	color: white;
+	font-weight: 500;
+	font-size: 1.25em;
+	background-color: #2f3aff;
+	border-radius: 8px;
+}
+
+#resultSection {
+	display: flex;
+	font-size: 3em;
+	text-transform: capitalize;
+	width: 40vw;
+	justify-content: space-between;
+	padding-bottom: 4vh;
+	border-bottom: 2px solid #fff;
+}
+
+#feedback {
+	font-size: 2em;
+	padding: 3vh;
+	color: #ffc4c4;
+}
+
+.scores {
+	display: flex;
+	font-size: 1.75em;
+	text-transform: capitalize;
+	width: 40vw;
+	justify-content: space-between;
+	padding-bottom: 4vh;
+}
+
+#endResult {
+	padding-top: 2vh;
+	font-size: 2em;
+	color: #f9ffc7;
+}

@@ -5,25 +5,29 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<script src="/script.js"></script>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 		<title>Rock Paper Scissors</title>
 	</head>
 	<body>
 		<h1>Rock, Paper, Scissors!</h1>
 		<h2>First to 5 wins, wins the game!</h2>
-		<button class="choice" onclick="game('rock')">Rock</button>
-		<button class="choice" onclick="game('paper')">Paper</button>
-		<button class="choice" onclick="game('scissors')">Scissors</button>
-		<button onclick="refresh()">Refresh</button>
+		<div class="btn-group">
+			<button class="choice" onclick="game('rock')">Rock</button>
+			<button class="choice" onclick="game('paper')">Paper</button>
+			<button class="choice" onclick="game('scissors')">Scissors</button>
+			<button onclick="refresh()">Refresh</button>
+		</div>
 		<div id="resultSection">
 			<p id="playerSelection"></p>
 			<p id="versus"></p>
 			<p id="computerSelection"></p>
-			<p id="feedback"></p>
 		</div>
+		<p id="feedback"></p>
 		<div class="scores">
 			<p id="computerScore"></p>
 			<p id="playerScore"></p>
-			<p id="endResult"></p>
 		</div>
+		<p id="endResult"></p>
 	</body>
 </html>
